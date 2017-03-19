@@ -17,5 +17,9 @@ prefix + Alt + u : uninstall plugins
 
 # Install tmux
 
-[Releases · tmux/tmux · GitHub](https://github.com/tmux/tmux/releases)
+- [Releases · tmux/tmux · GitHub](https://github.com/tmux/tmux/releases)
+
+# Install TPM
+- [tmux-plugins/tpm: Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
+- clone tpm to ~/.tmux/plugins
 
