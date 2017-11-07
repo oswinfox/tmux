@@ -1,4 +1,10 @@
-# Install this tmux config
+![screenshot](https://raw.githubusercontent.com/kimat/images/master/tmux.png)
+
+## Prerequisites
+
+- [tmux](https://github.com/tmux/tmux/releases)
+
+## Install this tmux config using gnu stow
 
 ```sh
 # install
@@ -7,20 +13,3 @@ stow  . -t ~
 # uninstall
 stow  -D . -t ~
 ```
-
-# Tmux plugins
-[GitHub - tmux-plugins/tpm: Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
-```
-prefix + I       : install plugins
-prefix + Alt + u : uninstall plugins
-```
-
-# Install tmux
-
-- [Releases · tmux/tmux · GitHub](https://github.com/tmux/tmux/releases)
-
-# Install TPM
-- [tmux-plugins/tpm: Tmux Plugin Manager](https://github.com/tmux-plugins/tpm)
-
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-
